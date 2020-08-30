@@ -10,7 +10,7 @@ Scrapes Yellow Pages for business listings.
 Download python 3. Ensure python and pip, its package manager are in your path (the default installer should do this for you).
 
 [Optional] Set up a virtual environment (isolates external packages on a per project basis)
-
+```
 >pip install virtualenv
 >cd "path_to_project_directory"
 >python -m venv env
@@ -20,14 +20,14 @@ Download python 3. Ensure python and pip, its package manager are in your path (
 ... develop ...
 
 >deactivate (returns you to your default env)
-
+```
 ## Install Dependencies
 
 If you chose to use a virtual env activate it before the next steps. The file 'requirements.txt' contains the project's external dependencies.
-
+```
 >cd "path_to_project_directory"
 >pip install -r requirements.txt
-
+```
 # Current Status
 
 - Extracts approximately 5500 business listings from Yellow Pages' Ottawa listings
